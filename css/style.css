@@ -1,0 +1,16 @@
+:root {
+    --toggle_light: false;
+    --text-color: #090607;
+    --primary: #9cc276;
+    --secondary: #c7d0bd;
+    --accent: aeaeaf;
+}
+
+
+body {
+    font-size: 70px;
+    color: var(--accent);
+
+
+    content: flexbox
+}
