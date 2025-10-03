@@ -30,6 +30,30 @@ header .logo {
   font-weight: bold;
   display: inline-block;
 }
+.about-section {
+  padding: 50px 0;
+  color: #2e8b57;
+}
+
+.about-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2e8b57;
+  padding-bottom: 10px;
+}
+
+.about-section h3 {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  color: #246b45;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  max-width: 800px;
+  line-height: 1.6;
+}
 
 nav {
   float: right;
@@ -173,4 +197,61 @@ footer {
     flex-direction: column;
     gap: 10px;
   }
+}
+.contact-section {
+  padding: 50px 0;
+  color: #2e8b57;
+  max-width: 600px;
+}
+
+.contact-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2e8b57;
+  padding-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #2e8b57;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #3aa76d;
+  outline: none;
+}
+
+.contact-form button.btn {
+  background-color: #2e8b57;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button.btn:hover {
+  background-color: #246b45;
 }
