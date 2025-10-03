@@ -1,0 +1,25 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  /* Fonts */
+  /* Effects */
+}
+/* Figma Color Variables of your File */
+:root,
+[data-collection-1-mode="light"] {
+  /* light */
+  --text: #090607;
+  --background: #f9f6f7;
+  --primary: #9cc276;
+  --secondary: #c7d0bd;
+  --accent: #aeaeaf;
+}
+
+[data-collection-1-mode="darck"] {
+  /* darck */
+  --text: #f9f6f7;
+  --background: #090607;
+  --primary: #63893e;
+  --secondary: #39422f;
+  --accent: #6a6a6c;
+}
