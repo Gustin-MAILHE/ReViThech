@@ -3,7 +3,10 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header{
@@ -23,6 +26,7 @@ header{
 }
 
 footer{
+    margin-top: 90vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
